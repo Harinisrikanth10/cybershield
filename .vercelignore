@@ -1,0 +1,10 @@
+# Exclude local backend and caches from Vercel deployment bundle
+backend/
+cybershield.db
+.pytest_cache/
+*.db
+*.sqlite3
+venv/
+.env
+.env.local
+.git
